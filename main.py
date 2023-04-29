@@ -74,12 +74,5 @@ if __name__ == "__main__":
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sir The Time is {strTime}")
-        
-
-
-
-
-
-
-
-
+        elif 'stop' in query:
+            exit()
